@@ -27,6 +27,8 @@ class keyScape:
                         key = '[backspace/delete]'
                 if key == Key.shift:
                         key = '[shift]'
+                if key == Key.tab:
+                        key = '[tab]'
 
                 key = str(key).replace("'", "")
                 self.keys += key
