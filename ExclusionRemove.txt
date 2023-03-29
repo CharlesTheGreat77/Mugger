@@ -1,0 +1,12 @@
+REM Title: Remove Exclusion set on C:\temp IF using badusb ducky script
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 3000
+ALT y
+DELAY 1500
+STRING Remove-MpPreference -ExclusionPath "C:\temp"
+ENTER
+echo "Done Remove ExlusionPath at C:\temp"
