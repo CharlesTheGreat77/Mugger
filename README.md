@@ -63,6 +63,7 @@ python3 -m PyInstaller Mugger.py --onefile
         - When you are done, be sure to reset the exclusion path!!!!!!!!
 * Reset Exclusion Path for Badusb script when finished
 ```
+# In admin powershell
 Remove-MpPreference -ExclusionPath "C:\temp"
 ```
 OR 
