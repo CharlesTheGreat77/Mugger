@@ -9,4 +9,8 @@ ALT y
 DELAY 1500
 STRING Remove-MpPreference -ExclusionPath "C:\temp"
 ENTER
-echo "Done Remove ExlusionPath at C:\temp"
+STRING echo "Done Remove ExlusionPath at C:\temp"
+ENTER
+DELAY 5000
+STRING exit
+ENTER
