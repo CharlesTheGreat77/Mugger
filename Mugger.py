@@ -12,7 +12,6 @@ class keyScape:
                 self.keys = ''
                 self.webhook = discord
                 self.timer = timer
-                self.counter = 0
 
         def info(self):
                 if len(self.keys) != 0:
