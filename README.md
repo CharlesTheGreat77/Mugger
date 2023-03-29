@@ -67,3 +67,6 @@ Remove-MpPreference -ExclusionPath "C:\temp"
 ```
 OR 
 run ExclusionRemove.txt file with flipper
+
+# KEY NOTE
+* To stop process, simply kill process in task manager, nothing needed other than such
